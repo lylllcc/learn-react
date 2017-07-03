@@ -11,8 +11,6 @@ class ControlPanel extends Component {
 
     }
 
-
-
     render() {
         return (
             <div>
