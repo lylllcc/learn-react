@@ -21,9 +21,11 @@ class Counter extends Component{
     }
     addButton(){
         this.setState({count: this.state.count + 1});
+        this.props.upDateValue(1);
     }
     deButton(){
         this.setState({count: this.state.count - 1})
+        this.props.upDateValue(-1);
     }
     render(){
         const {caption} = this.props;
